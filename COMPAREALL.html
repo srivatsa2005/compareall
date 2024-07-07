@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+        }
+        li{
+            margin-left: 60px;
+            font-family: "Poppins", sans-serif;
+            cursor: pointer;
+        }
+        select{
+            border: 0px;
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        option{
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        header{
+            position: fixed;
+            z-index: 1;
+            font-weight: 600;
+            background-color: white;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+        }
+        #logo{
+            width: 140px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        nav{
+            display: flex;
+        }
+        body{
+            background-color: grey;
+            overflow: auto;
+        }
+        #bglogo{
+            width: 1000px;
+            margin-left: 240px;
+            margin-top: 30px;
+        }
+        #selectorstr{
+            margin-top: 80px;
+            padding-left: 10px;
+            border-spacing: 50px;
+            margin-left: 70px;
+            line-height: 0;
+        }
+        #updtitms{
+            width: 1300px;
+            height: 520px;
+            margin-left: 106px;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+        }
+        #bikename{
+            font-family: "Poppins", sans-serif;
+            margin-top: 0px;
+            margin-left: 60px;
+            padding-top: 100px;
+            font-size: 75px;
+            line-height: 0;
+        }
+        #updttable{
+            margin-top: 70px;
+            padding-left: 10px;
+            margin-left: 0px;
+            border-spacing: 6px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        #tabletitle1{
+            font-family: "Poppins", sans-serif;
+            padding-left: 0px;
+            text-decoration: underline;
+        }
+        #tabletitle2{
+            font-family: "Poppins", sans-serif;
+            padding-left: 0px;
+            text-decoration: underline;
+        }
+        #tablecont1{
+            font-family: "Poppins", sans-serif;
+            padding-left: 70px;
+            line-height: 2;
+        }
+        #tablecont2{
+            font-family: "Poppins", sans-serif;
+            padding-left: 60px;
+            line-height: 2;
+            margin-top: 0px;
+        }
+        #changebtns{
+            display: flex;
+            margin-left: 145px;
+        }
+        #selectors1{
+            margin-left: 10px;
+            border: 1px solid black;
+            width: 380px;
+            height: 50px;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+            border-radius: 4px;
+            opacity: 0.8;
+            font-weight: 600;
+            color: black;
+            font-size: large;
+            margin-left: 20px;
+        }
+        #selectors1:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+        #selectors2{
+            margin-left: 10px;
+            border: 1px solid black;
+            width: 380px;
+            height: 50px;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+            border-radius: 4px;
+            opacity: 0.8;
+            font-weight: 600;
+            color: black;
+            font-size: large;
+            margin-left: 20px;
+        }
+        #selectors2:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+        #selectors3{
+            margin-left: 10px;
+            border: 1px solid black;
+            width: 380px;
+            height: 50px;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+            border-radius: 4px;
+            opacity: 0.8;
+            font-weight: 600;
+            color: black;
+            font-size: large;
+            margin-left: 20px;
+        }
+        #selectors3:hover{
+            opacity: 1;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="https://github.com/srivatsa2005/mainproject/blob/main/Black%20logo%20for%20B&W%20print.png?raw=true">
+            <ul type="none">
+                <li>Home</li>
+                <li>About us</li>
+                <li>
+                    <select>
+                        <option selected>Products</option>
+                        <option>SE03</option>
+                        <option>SEO3 Lite</option>
+                        <option>SE03 Max</option>
+                    </select>
+                </li>
+                <li>Pre-order</li>
+            </ul>
+        </nav>
+    </header>
+    <img id="bglogo" src="https://github.com/srivatsa2005/mainproj-html-and-css/blob/main/colorlogo.png?raw=true">
+  <table id="selectorstr">
+    <span id="changebtns">
+        <button id="selectors1">SE03</button>
+        <button id="selectors2">SE03 Lite</button>
+        <button id="selectors3">SE03 Max</button>
+    </span>
+  </table>
+  <div id="updtitms">
+    <h1 id="bikename">SE03</h1>
+    <table id="updttable">
+        <tr>
+            <th id="tabletitle1">Specification</th>
+        </tr>
+        <tr id="updatetr">
+            <td id="tablecont1">
+                battery<br>Batteryfeatures<br>Battery
+                warranty<br>Charging time<br>Motor<br>Max speed<br>Warranty on
+                electronics<br>Max range
+                (@30km/h)<br>Max range
+                (@45km/h)<br>Max range
+                (@full speed)<br>Other key
+                benefits
+            </td>
+        </tr>
+    </table>
+    <table id="updttable">
+        <tr>
+            <th id="tabletitle2">SE03</th>
+        </tr>
+        <tr>
+            <td id="tablecont2">
+                1.8Kwh<br>LFP with
+                1500 cycles
+                Active
+                Balancing
+                Waterproof
+                (IP67)<br>3 years<br>3 hours (12A)<br>1500W<br>55 km/h<br>1 year<br>100 km<br>90 km<br>60 km<br>Fire-safe
+                Battery,
+                Range
+                prediction,
+                Comfortable
+                ride,
+                Stable and
+                safe.
+            </td>
+        </tr>
+    </table>
+  </div><br>
+  <script>
+    const button1 = document.getElementById('selectors1');
+const button2 = document.getElementById('selectors2');
+const button3 = document.getElementById('selectors3');
+const bikeName = document.getElementById('bikename');
+const specificationContent = document.getElementById('specification-content');
+
+const productData = {
+  SE03: {
+    specification: `
+      2.7Kwh<br>
+      LFP with 1500 cycles Active Balancing Waterproof (IP67)<br>
+      3 years<br>
+      4 hours (12A)<br>
+      1500W<br>
+      55 km/h<br>
+      1 year<br>
+      150 km<br>
+      110 km<br>
+      90 km<br>
+      Fire-safe Battery, Range prediction, Comfortable ride, Stable and safe.
+    `
+  },
+  'SE03-Lite': {
+    specification: `
+      1.8Kwh<br>
+      LFP with 1500 cycles Active Balancing Waterproof (IP67)<br>
+      3 years<br>
+      3 hours (12A)<br>
+      1500W<br>
+      55 km/h<br>
+      1 year<br>
+      100 km<br>
+      90 km<br>
+      60 km<br>
+      Fire-safe Battery, Range prediction, Comfortable ride, Stable and safe.
+    `
+  },
+  'SE03-Max': {
+    specification: `
+      2.7Kwh<br>
+      LFP with 1500 cycles Active Balancing Waterproof (IP67)<br>
+      3 years<br>
+      4 hours (12A)<br>
+      2000W<br>
+      65 km/h<br>
+      1 year<br>
+      120 km<br>
+      100 km<br>
+      80 km<br>
+      Fire-safe Battery, Range prediction, Comfortable ride, Stable and safe.
+    `
+  }
+};
+
+
+button1.addEventListener('click', () => {
+  updateContent('SE03');
+});
+
+button2.addEventListener('click', () => {
+  updateContent('SE03Lite');
+});
+
+button3.addEventListener('click', () => {
+  updateContent('SE03Max');
+});
+
+function updateContent(selectedProduct) {
+  bikeName.textContent = selectedProduct;
+  specificationContent.innerHTML = productData[selectedProduct].specification;
+}
+  </script>
+</body>
+</html>
